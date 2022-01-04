@@ -8,9 +8,6 @@
 import Foundation
 import UIKit
 
-typealias SelectColor = GameRound<String>
-typealias RightOnTarget = GameRound<Int>
-
 protocol GameRoundProtocol {
     associatedtype ValueType
     var secretValue: ValueType {get set}

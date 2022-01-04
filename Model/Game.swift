@@ -11,8 +11,6 @@ import UIKit
 protocol GameProtocol {
     associatedtype ValueType
 
-//    var rounds: [GameRound<ValueType>] {get set}
-//    var currentRound: GameRoundProtocol {get set}
     var generator: GeneratorProtocol? {get set}
     var numberOfRounds: Int {get set}
     var isGameEnded: Bool {get}
